@@ -1,0 +1,9 @@
+<article>
+    <h4>{{product.product_name}}</h4>
+    <img src="{{product.picture}}" alt="">
+    <p>{{product.product_price}}</p>
+    <hr>
+    <a href="{% url 'product-update' product.id %}" role="button">
+        Edit Product
+    </a>
+</article>

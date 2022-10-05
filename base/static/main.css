@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+
+/*body{
+    background-color: black;
+}*/
+
+header{
+    display: flex;
+    background-color: rgb(66, 221, 221);
+}

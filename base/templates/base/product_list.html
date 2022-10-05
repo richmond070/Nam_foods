@@ -1,0 +1,14 @@
+{% extends 'main.html' %}
+
+{% block content %}
+   {% for item in product-list %}
+        <h3>{{item.product}} Products</h3>
+        <article>
+            {{item}}
+        </article>
+    {% endfor %}
+
+    <a href="{% url 'product-create'%}" role="button">
+        Create New Product
+    </a>
+{% endblock content%}
